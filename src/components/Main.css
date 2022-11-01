@@ -56,10 +56,11 @@
   height: fit-content;
 }
 @keyframes animate {
-  0% {
+  0%,
+  100% {
     transform: rotate(0);
   }
-  100% {
+  50% {
     transform: rotate(180deg);
   }
 }

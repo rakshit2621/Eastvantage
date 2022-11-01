@@ -8,7 +8,7 @@ export default function Main() {
   const rotate = useRef();
   async function callApi() {
     setLoading(true);
-    rotate.current.style.animation = "animate 1s linear forwards";
+    rotate.current.style.animation = "animate 0.5s linear forwards";
     const response = await fetch("https://randomuser.me/api")
       .then((response) => response.json())
       .then((json) => {
